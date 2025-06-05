@@ -53,7 +53,7 @@ class ProducerConsumer:
     
     
 def run():
-    """"""
+    """Executa a simulação do produtor-consumidor"""
     simulation = ProducerConsumer(buffer_size=BUFFER_SIZE, max_items=MAX_ITEMS)
     
     producers = []
