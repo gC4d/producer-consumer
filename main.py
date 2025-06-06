@@ -9,7 +9,7 @@ MAX_ITEMS = 15
 
 class ProducerConsumer:
     
-    def __init__(self, buffer_size=5, num_producers=2, num_consumers=2, max_items=10):
+    def __init__(self, buffer_size=5, max_items=10):
         self.buffer_size = buffer_size
         self.max_items = max_items
         
